@@ -1,0 +1,48 @@
+body {
+  font-family: 'PT Sans', serif;
+  /* font-family: 'Josefin Slab', serif; */
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container-insde {
+  width: 400px;
+  padding: 0 20px;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.full-height {
+  height: 100vh;
+}
+.bg-darkblue {
+  background-color: #112d4e;
+}
+.navbar-nav .nav-link {
+  color: white;
+}
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+.navbar-scrolled {
+  background-color: #dbe2ef !important;
+  transition: background-color 200ms linear;
+}
+.contact ul {
+  color: white;
+  text-decoration: none;
+  font-size: 3em;
+  list-style-type: none;
+}
+.contact li {
+  margin-left: 0;
+  margin-right: 30px;
+  cursor: pointer;
+}
