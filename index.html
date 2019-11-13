@@ -21,9 +21,9 @@
     <title>Gregorius Jimmy</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
         <button
           class="navbar-toggler"
           type="button"
@@ -38,19 +38,23 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Expertise</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <div class="bg-darkblue full-height text-white">
+    </nav> -->
+    <div class="bg-darkblue full-height text-light">
       <div
         class="d-flex flex-row-reverse align-items-center justify-content-center flex-wrap"
         style="height:80%; padding-top:20px"
@@ -76,7 +80,7 @@
         </div>
         <!-- CONTACT -->
       </div>
-      <div class=" contact flex-grow text-center" style="">
+      <div class=" contact flex-grow text-center">
         <ul class="d-flex flex-row pl-0 justify-content-center">
           <li>
             <a
@@ -133,6 +137,144 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- SECTION Why Work With Me -->
+    <div class="section-pad bg-lightblue text-light">
+      <div class="container text-center">
+        <h1 style="font-weight: 700;">WHY WORK WITH ME?</h1>
+        <p>
+          I’m not the best developer in the world, such as able to memorize all
+          of the syntax and docs, but I have something in me that makes me
+          <strong> keeps motivated, learning, and improving myself </strong>. I
+          love to <strong>analyze</strong>, find out how things work, and
+          <strong>thinking outside the box</strong> so it helps me to solve many
+          problems. Most Importantly this is
+          <strong>MY GREATEST PASSION.</strong> There’s nothing I enjoy more
+          than build things with other people, sharing ideas and knowledge.
+        </p>
+      </div>
+    </div>
+    <div class="section-pad">
+      <div id="projects" class="container">
+        <h1 class="mb-5 border-bottom">Projects</h1>
+        <div class="row flex-row-reverse">
+          <div class="col-lg-6 ">
+            <img
+              class="img-fluid"
+              src="./assets/images/project1.jpg"
+              alt=""
+              style="width: 400px;"
+            />
+          </div>
+          <!-- SMART BRAIN -->
+          <div class="col-lg-6">
+            <h2>Smart Brain</h2>
+            <p>
+              This is a face recognition app using machine learning API that
+              Clarifai provided, the server receive the user's url photo and ask
+              Clarifai machine learning model to detect the face within the
+              photo. user must register first to be able to use this app and
+              then user data will be stored in the database. this project made
+              using React, Node for the back-end and Postgresql for the database
+            </p>
+
+            <a
+              target="_blank"
+              href="https://github.com/gregoriusjimmy/SmartBrain-Project"
+              ><button class="viewButton">Source Code</button>
+            </a>
+            <a
+              target="_blank"
+              href="https://smart-brain-faceclick.herokuapp.com/"
+              ><button class="viewButton">See Live!</button>
+            </a>
+          </div>
+          <div class="col-lg-6 ">
+            <img
+              class="img-fluid"
+              src="./assets/images/project2.jpg"
+              alt=""
+              style="width: 400px; "
+            />
+          </div>
+          <!-- ROBO FRIENDS -->
+          <div class="col-lg-6">
+            <h2>Robo Friends</h2>
+            <p>
+              This is just a simple project made using React, to demonstrate
+              react components, state and how to do fetch in react. User can
+              search for the robot's name and the robots card that contain name
+              of user's input will be displayed
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/gregoriusjimmy/robofriends"
+              ><button class="viewButton">Source Code</button>
+            </a>
+            <a
+              target="_blank"
+              href="https://gregoriusjimmy.github.io/robofriends/"
+              ><button class="viewButton">See Live!</button>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="./assets/images/project3.jpg"
+              alt=""
+              style="width: 400px;"
+            />
+          </div>
+          <!-- DING DONG CODE -->
+          <div class="col-lg-6">
+            <h2>Ding Dong Code (Blog)</h2>
+            <p>
+              Using Gatsby.js and GraphQL I'am able to make a dynamic blog, the
+              owner of the blog can easily write their new blog using just a
+              Markdown or CMS (Content Management System) that Contentful
+              provided and the post will be automatically updated. The server
+              hosted in Netlify.
+            </p>
+            <a
+              target="_blank"
+              href="https://github.com/gregoriusjimmy/dingdongcode-website-PUBLIC"
+              ><button class="viewButton">Source Code</button>
+            </a>
+            <a target="_blank" href="https://gifted-elion-ebd89e.netlify.com/"
+              ><button class="viewButton">See Live!</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION Contact Me -->
+    <div class="section-pad bg-darkblue text-light">
+      <div class="container">
+        <h3 class="text-center">Message Me</h3>
+        <form action="https://formspree.io/mnqqngqe" method="POST">
+          <div class="form-group mb-2">
+            <label for="youremail">Your email: </label>
+            <input
+              class="form-control"
+              id="youremail"
+              type="email"
+              name="_replyto"
+            />
+          </div>
+          <div class="form-group">
+            <label for="yourMessage"> Your message: </label>
+            <textarea
+              class="form-control"
+              rows="3"
+              id="yourMessage"
+              name="message"
+            ></textarea>
+            <button class="btn btn-info float-right mt-2" type="submit">
+              Send
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <!-- SCRIPT -->
